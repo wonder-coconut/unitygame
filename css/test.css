@@ -1,5 +1,5 @@
-body        {background-color: black;
+body        {background-color: rgb(51, 51, 51);
             text-align: center;}
-.generic    {color: yellow;}
+p.generic    {color: yellow;}
 .pridemonth {color: pink;
             text-transform: capitalize;}
