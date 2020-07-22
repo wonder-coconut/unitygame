@@ -1,7 +1,6 @@
-body            {background-image: url(legoboy.jpg);
+body            {background-color: rgb(2, 2, 4);
+                background-image: url(legoboy.jpg);
                 background-repeat: no-repeat;
-                background-size: auto;
-                background-position: center;
                 text-align: end}
 
 h1,p.generic    {color: yellow;}
