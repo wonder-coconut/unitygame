@@ -2,10 +2,8 @@ body            {background-image: url(legoboy.jpg);
                 background-repeat: no-repeat;
                 background-size: auto;
                 background-position: center;
-                text-align: center;}
+                text-align: end}
 
-h1,p.generic    {border:6px solid yellow;
-                color: yellow;}
-.pridemonth     {border:2px solid pink;
-                color: pink;
+h1,p.generic    {color: yellow;}
+.pridemonth     {color: pink;
                 text-transform: capitalize;}
