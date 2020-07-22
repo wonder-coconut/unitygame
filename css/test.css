@@ -1,6 +1,6 @@
 body        {background-color: rgb(51, 51, 51);
             text-align: center;}
 
-h1,p.generic    {background-color: yellow;}
-.pridemonth {background-color: pink;
+h1,p.generic    {border:2px solid yellow;}
+.pridemonth {border:2px solid pink;
             text-transform: capitalize;}
