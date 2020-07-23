@@ -6,3 +6,8 @@ p       {color: blanchedalmond;
         font-size: 36px;
         border-left: olive 10px solid;
         background-color: olivedrab;}
+
+.slim           {border-radius: 0px;}
+.endowed        {border-radius: 4px;}
+.fat            {border-radius: 8px;}
+.morbidlyobese  {border-radius: 12px;}
