@@ -4,7 +4,32 @@ body    {background-color: rgb(2, 2, 4);
 .dot    {border-style: dotted;
         border-color: blanchedalmond;}
 
+.dash   {border-style: dashed;
+        border-color: blanchedalmond;}
+
+.solid  {border-style: solid;
+        border-color: blanchedalmond;}
+
+.double {border-style: double;
+        border-color: blanchedalmond;}
+
+.groove {border-style: groove;
+        border-width: 10px;
+        border-color: blanchedalmond;}
+
+.ridge  {border-style: ridge;
+        border-color: blanchedalmond;}
+
+.inset  {border-style: inset;
+        border-color: blanchedalmond;}
+
+.outset {border-style: outset;
+        border-color: blanchedalmond;}
+
+.none   {border-style: none;
+        border-color: blanchedalmond;}
+
 p       {color: blanchedalmond;
-        font-size: 18px;
+        font-size: 36px;
         border-style: dashed;
         border-color: blanchedalmond;}
