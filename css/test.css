@@ -1,8 +1,7 @@
-body            {background-color: rgb(2, 2, 4);
-                background-image: url(legoboy.jpg);
-                background-repeat: no-repeat;
-                text-align: end}
+body    {background-color: rgb(2, 2, 4);
+        text-align: center;}
 
-h1,p.generic    {color: yellow;}
-.pridemonth     {color: pink;
-                text-transform: capitalize;}
+p       {color: blanchedalmond;
+        font-size: 18px;
+        border-style: dotted;
+        border-color: blanchedalmond;}        
