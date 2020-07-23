@@ -1,7 +1,10 @@
 body    {background-color: rgb(2, 2, 4);
         text-align: center;}
 
+.dot    {border-style: dotted;
+        border-color: blanchedalmond;}
+
 p       {color: blanchedalmond;
         font-size: 18px;
-        border-style: dotted;
-        border-color: blanchedalmond;}        
+        border-style: dashed;
+        border-color: blanchedalmond;}
