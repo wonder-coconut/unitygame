@@ -14,16 +14,19 @@ body    {background-color: rgb(2, 2, 4);
         border-color: blanchedalmond;}
 
 .groove {border-style: groove;
-        border-width: 10px;
+    border-width: 10px;
         border-color: blanchedalmond;}
 
 .ridge  {border-style: ridge;
+    border-width: 10px;
         border-color: blanchedalmond;}
 
 .inset  {border-style: inset;
+    border-width: 10px;
         border-color: blanchedalmond;}
 
 .outset {border-style: outset;
+    border-width: 10px;
         border-color: blanchedalmond;}
 
 .none   {border-style: none;
