@@ -5,17 +5,3 @@ body    {background-color: rgb(2, 2, 4);
 p       {color: blanchedalmond;
         font-size: 36px;}
 
-.boomer {font-family: 'Times New Roman', Times, serif;}
-
-.hipster{font-family: Arial, Helvetica, sans-serif;
-        font-style: italic;
-        font-weight: lighter;}
-
-.wack   {font-family: "Sofia";
-        font-style: oblique;
-        font-weight: bolder;}
-
-.suicidal{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-style: italic;
-        font-weight: 100;
-        font-variant: small-caps;}
