@@ -4,7 +4,7 @@ p       {color:blanchedalmond;}
 pre     {color:blanchedalmond;}
 a:link      {color:cyan;
             text-decoration: none;}
-a:visited   {color: paleturquoise;
+a:visited   {color: cyan;
             text-decoration: none;}
 a:hover     {color: turquoise;
             text-decoration: underline;}
