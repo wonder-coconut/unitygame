@@ -2,7 +2,11 @@ body    {background-color: rgb(51, 51, 51);}
 h1      {color: blanchedalmond;}
 p       {color:blanchedalmond;}
 pre     {color:blanchedalmond;}
-a:link      {color:cyan}
-a:visited   {color: paleturquoise;}
-a:hover     {color: powderblue;}
-a:active    {color: royalblue ;}
+a:link      {color:cyan;
+            text-decoration: none;}
+a:visited   {color: paleturquoise;
+            text-decoration: none;}
+a:hover     {color: powderblue;
+            text-decoration: underline;}
+a:active    {color: royalblue ;
+            text-decoration: line-through;}
