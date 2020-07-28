@@ -2,6 +2,11 @@ body    {background-color: rgb(51, 51, 51);}
 h1      {color: blanchedalmond;}
 p       {color:blanchedalmond;}
 pre     {color:blanchedalmond;}
+
+h1,p,pre{text-align: center;}
+a       {text-align: center;
+        display: block;}
+        
 a:link      {color:cyan;
             text-decoration: none;}
 a:visited   {color: cyan;
