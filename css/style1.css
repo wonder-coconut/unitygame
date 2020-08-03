@@ -1,11 +1,9 @@
-body    {background-color: rgb(51, 51, 51);}
-h1      {color: blanchedalmond;}
-p       {color:blanchedalmond;}
-pre     {color:blanchedalmond;}
+body    {background-color: rgb(51, 51, 51);
+        text-align: center;}
 
-h1,p,pre{text-align: center;}
-a       {text-align: center;
-        display: block;}
+h1,p,pre{color: blanchedalmond;}
+
+a       {display: inline-block}
         
 a:link      {color:cyan;
             text-decoration: none;}
