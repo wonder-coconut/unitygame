@@ -14,7 +14,7 @@ a:hover     {color: turquoise;
 a:active    {color: royalblue ;
             text-decoration: line-through;}
 
-div.fixed       {background-color: rgb(51, 51, 51);
+div.gateway_drug{background-color: rgb(51, 51, 51);
                 position: fixed;
                 border-color: rgb(120, 120, 120);
                 border-style: solid;
