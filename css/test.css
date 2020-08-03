@@ -1,7 +1,13 @@
-body    {background-color: rgb(2, 2, 4);
+body    {background-color: rgb(51, 51, 51);
         text-align: center;}
 
 
 p       {color: blanchedalmond;
         font-size: 36px;}
 
+span.fixed       {background-color: rgb(51, 51, 51);
+                position: fixed;
+                border-style: ridge;
+                border-top-left-radius: 20px;
+                bottom: 0;
+                right: 0;}
