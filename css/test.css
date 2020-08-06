@@ -31,14 +31,28 @@ div.links      {text-align: center;
                 left: 50%;
                 transform: translate(-50%,-50%);}
 
-div.about       {text-align: center;
+.about,.home    {text-align: center;
+                background-color: rgba(0, 0, 0, 0.5);
                 border-color: white;
+                padding-left: 10px;
+                padding-right: 10px;
                 color: white;
                 border-style: solid;
                 position: fixed;
-                top: 0;
-                right: 0;
-                }
+                top: 0;}
+
+div.about       {right: 0;}
+
+div.home        {left: 0;}
+
+div.hoes_mad    {position: fixed;
+                top: 69px;
+                left: 420px;
+                border-color: white;
+                border-style: none;}
+
+
+        
 
 @media screen and (min-width: 601px){
         h1      {font-size: 333%;}
