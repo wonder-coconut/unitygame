@@ -22,7 +22,7 @@ a.hidden        {cursor: crosshair;}
 div.title       {padding-right: 10px;
                 padding-left: 10px;
                 position: fixed;
-                top: 55%;
+                top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);}
 
@@ -40,7 +40,7 @@ div.links      {border-color: white;
                 border-radius: 15px;
                 border-width: 5px;
                 position: fixed;
-                top: 70%;
+                top: 65%;
                 left: 50%;
                 transform: translate(-50%,-50%);}
 
