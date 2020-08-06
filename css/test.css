@@ -22,7 +22,8 @@ div.title       {text-align: center;
 
 div.links       {text-align: center;
                 border-color: white;
-                border-style: solid;
+                border-style: none double solid double;
+                border-radius: 15px;
                 color: white;
                 position: fixed;
                 top: 64.5%;
