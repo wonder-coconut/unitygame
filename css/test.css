@@ -41,7 +41,7 @@ div.about       {right: 0;}
 div.home        {left: 0;}
 
 div.text        {border-color: white;
-                border-style: solid;
+                border-style: none;
                 position: fixed;
                 top:40%;
                 left: 50%;
@@ -51,6 +51,12 @@ div.text        {border-color: white;
 div.hoes_mad    {position: fixed;
                 top: 69px;
                 left: 420px;
+                border-color: white;
+                border-style: none;}
+
+div.hint        {position: fixed;
+                bottom: 0;
+                left: 0;
                 border-color: white;
                 border-style: none;}
 
@@ -91,8 +97,4 @@ h1              {font-weight: normal;}
                         height: 10vw;}
 }
 
-div.hoes_mad    {position: fixed;
-                top: 69px;
-                left: 420px;
-                border-color: white;
-                border-style: none;}
+
