@@ -9,6 +9,8 @@ body    {background-image: url("background.webp");
 
 a       {display: inline;}
 
+a.hidden        {cursor: crosshair;}
+
 div.title       {text-align: center;
                 padding-right: 10px;
                 padding-left: 10px;
@@ -24,7 +26,7 @@ div.links      {text-align: center;
                 border-radius: 15px;
                 color: white;
                 position: fixed;
-                top: 55%;
+                top: 60%;
                 left: 50%;
                 transform: translate(-50%,-50%);}
 
@@ -51,6 +53,7 @@ h1,p            {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob
 
 p               {font-weight: bold;
                 text-transform: uppercase;
+                text-indent: 2px;
                 letter-spacing: 2px;}
 
 @media screen and (min-width: 601px)    {
@@ -62,3 +65,9 @@ p               {font-weight: bold;
         img.links       {width: 10vw;
                         height: 10vw;}
 }
+
+div.hoes_mad    {position: fixed;
+                top: 69px;
+                left: 420px;
+                border-color: white;
+                border-style: none;}
