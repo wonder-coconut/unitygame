@@ -3,7 +3,7 @@ body    {background-image: url("background.webp");
         height: 500px;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 3000px;
         position: relative;
         }
 
@@ -19,4 +19,12 @@ div.title       {padding-left: 5px;
                 transform: translate(-50%,-50%);
                 font-family: 'Courier New', Courier, monospace;
                 font-weight: bold;
+                color: white;}
+
+div.links       {position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                border-style: solid;
+                border-color: white;
                 color: white;}
