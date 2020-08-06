@@ -5,6 +5,16 @@ body    {background-image: url("/home/wondercoconut/webdev/pictures/background.w
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        margin: 0;
         }
 
-h1      {color: white;}
+div.title       {text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);}
+
+h1.title        {font-family: 'Courier New', Courier, monospace;
+                font-size: 50px;
+                font-weight: bold;
+                color: white;}
