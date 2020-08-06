@@ -5,14 +5,13 @@ body    {background-image: url("background.webp");
         background-repeat: no-repeat;
         background-size: cover;
         position: fixed;
-        }
+        text-align: center;}
 
 a       {display: inline;}
 
 a.hidden        {cursor: crosshair;}
 
-div.title       {text-align: center;
-                padding-right: 10px;
+div.title       {padding-right: 10px;
                 padding-left: 10px;
                 color: white;
                 position: fixed;
@@ -20,8 +19,7 @@ div.title       {text-align: center;
                 left: 50%;
                 transform: translate(-50%,-50%);}
 
-div.links      {text-align: center;
-                border-color: white;
+div.links      {border-color: white;
                 border-style: none double solid double;
                 border-radius: 15px;
                 border-width: 5px;
@@ -31,8 +29,7 @@ div.links      {text-align: center;
                 left: 50%;
                 transform: translate(-50%,-50%);}
 
-.about,.home    {text-align: center;
-                background-color: rgba(0, 0, 0, 0.5);
+.about,.home    {background-color: rgba(0, 0, 0, 0.5);
                 border-color: white;
                 padding-left: 10px;
                 padding-right: 10px;
@@ -66,7 +63,7 @@ h1              {font-weight: normal;}
 
 h1,p            {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
-p               {font-weight: bold;
+p.button        {font-weight: bold;
                 text-transform: uppercase;
                 text-indent: 2px;
                 letter-spacing: 2px;}
