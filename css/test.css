@@ -1,9 +1,10 @@
-body    {background-color: rgb(51, 51, 51);
-        text-align: center;}
+body    {background-image: url("/home/wondercoconut/webdev/pictures/background.webp");
+        background-color: rgb(51, 52, 51);
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
 
-
-p       {color: blanchedalmond;
-        font-size: 36px;}
-
-img     {width: 200px;
-        height: 300px;}
+h1      {color: white;}
