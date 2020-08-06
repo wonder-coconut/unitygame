@@ -52,7 +52,7 @@ div.hoes_mad    {position: fixed;
                 top: 69px;
                 left: 420px;
                 border-color: white;
-                border-style: none;}
+                border-style: solid;}
 
 div.hint        {position: fixed;
                 bottom: 0;
