@@ -22,16 +22,25 @@ a.hidden        {cursor: crosshair;}
 div.title       {padding-right: 10px;
                 padding-left: 10px;
                 position: fixed;
-                top: 45%;
+                top: 55%;
                 left: 50%;
                 transform: translate(-50%,-50%);}
+
+div.face        {position: fixed;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                border-color: rgba(0, 0, 0, 1);
+                border-width: 5px;
+                border-style: none solid none solid;
+                border-radius: 100%;}
 
 div.links      {border-color: white;
                 border-style: none double solid double;
                 border-radius: 15px;
                 border-width: 5px;
                 position: fixed;
-                top: 60%;
+                top: 70%;
                 left: 50%;
                 transform: translate(-50%,-50%);}
 
