@@ -28,17 +28,21 @@ div.links      {border-color: white;
                 left: 50%;
                 transform: translate(-50%,-50%);}
 
-.about,.home    {background-color: rgba(0, 0, 0, 0.7);
-                border-color: white;
-                padding-left: 10px;
-                padding-right: 10px;
-                border-style: solid;
-                position: fixed;
-                top: 0;}
+.about,.home,.original  {background-color: rgba(0, 0, 0, 0.7);
+                        border-color: white;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        border-style: solid;
+                        position: fixed;}
+
+.about,.home    {top:0;}
 
 div.about       {right: 0;}
 
 div.home        {left: 0;}
+
+div.original    {bottom: 0;
+                right: 0;}
 
 div.text        {border-color: white;
                 border-style: none;
