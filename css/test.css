@@ -7,7 +7,11 @@ body    {background-image: url("background.webp");
         position: fixed;
         }
 
+a       {display: inline;}
+
 div.title       {text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
                 border-color: white;
                 border-style: solid;
                 color: white;
@@ -15,3 +19,15 @@ div.title       {text-align: center;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);}
+
+div.links       {text-align: center;
+                border-color: white;
+                border-style: solid;
+                color: white;
+                position: fixed;
+                top: 66%;
+                left: 50%;
+                transform: translate(-50%,-50%);}
+
+img.links       {width: 69px;
+                height: 69px;}
