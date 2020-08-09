@@ -6,9 +6,14 @@
     <title>
         testing
     </title>
+    <script>
+        function test()
+        {
+            document.getElementById("test").innerHTML="general kenobi"
+        }
+    </script>
     <body>
-        <button onclick='document.getElementById("cacodemon").style.display="inline"'>Cacodemon</button>
-        <img id="cacodemon" src="../pictures/cacodemon.webp" width="294px" height="300px">
-        <button onclick="document.getElementById('cacodemon').style.display='none'">Cacodemon Pog</button>
+        <h1 id="test"></h1>
+        <button type="button" onclick="test()">hello there</button>
     </body>
 </html>
