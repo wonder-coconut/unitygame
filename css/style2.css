@@ -44,12 +44,12 @@ div.links      {border-color: white;
                 left: 50%;
                 transform: translate(-50%,-50%);}
 
-.about,.home,.authentic  {background-color: rgba(0, 0, 0, 0.7);
-                        border-color: white;
-                        padding-left: 10px;
-                        padding-right: 10px;
-                        border-style: solid;
-                        position: fixed;}
+.about,.home,.authentic,.projects       {background-color: rgba(0, 0, 0, 0.7);
+                                        border-color: white;
+                                        padding-left: 10px;
+                                        padding-right: 10px;
+                                        border-style: solid;
+                                        position: fixed;}
 
 .about,.home    {top:0;}
 
@@ -57,8 +57,11 @@ div.about       {right: 0;}
 
 div.home        {left: 0;}
 
-div.authentic    {bottom: 0;
-                right: 0;}
+.authentic,.projects    {bottom: 0;}
+
+div.authentic   {right: 0;}
+
+div.projects    {left: 0;}
 
 div.text        {border-color: white;
                 border-style: none;
@@ -76,7 +79,8 @@ div.hoes_mad    {position: fixed;
 
 div.hint        {position: fixed;
                 bottom: 0;
-                left: 0;
+                left: 50%;
+                transform: translate(-50%,0);
                 border-color: white;
                 border-style: none;}
 
