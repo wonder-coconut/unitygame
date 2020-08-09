@@ -1,4 +1,4 @@
 function test()
 {
-    document.getElementById("test").innerHTML="general kenobi"
+    window.alert("general kenobi");
 }
