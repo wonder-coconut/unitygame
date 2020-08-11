@@ -1,8 +1,6 @@
 function test()
 {
-    var a,b,c;
-    a=9;
-    b=10;
-    c=a+b+2;
-    window.alert(c);
+    var a = " never \r gonna \r give \r you \r up \n"
+    var b = " what the fcuk is \f form feed"
+    document.getElementById("test").innerHTML = a + " " + b
 }
