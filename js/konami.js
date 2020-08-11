@@ -40,7 +40,7 @@ var allowedKeys = {
   function activateCheats() {
     document.body.style.backgroundImage = "url('images/cheatBackground.png')";
   
-    var audio = new Audio('audio/nice.mp3');
+    var audio = new Audio('../audio/nice.mp3');
     audio.play();
   
     alert("nice");
