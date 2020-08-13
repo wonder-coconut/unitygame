@@ -63,13 +63,23 @@ div.authentic   {right: 0;}
 
 div.projects    {left: 0;}
 
+.button        {font-weight: bold;
+                text-transform: uppercase;
+                text-indent: 2px;
+                letter-spacing: 2px;}
+
 div.text        {border-color: white;
                 border-style: none;
                 position: fixed;
                 top:50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
-                padding: 10px 30px 10px 30px;}
+                padding: 10px 30px 10px 30px;
+                background-color: rgba(0, 0, 0, 0.7);}
+
+.text          {font-weight: normal;
+                letter-spacing: 1px;
+                font-size: 21px;}
 
 div.hoes_mad    {position: fixed;
                 top: 6.9%;
@@ -103,16 +113,10 @@ h1              {font-weight: normal;}
 
 
 
-.button        {font-weight: bold;
-                text-transform: uppercase;
-                text-indent: 2px;
-                letter-spacing: 2px;}
 
-.text          {font-weight: normal;
-                letter-spacing: 1px;
-                font-size: 21px;}
 
-div.text       {background-color: rgba(0, 0, 0, 0.7);}
+
+
 
 @media screen and (min-width: 601px)    {
         img.links       {width: 69px;
