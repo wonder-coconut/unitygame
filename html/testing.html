@@ -4,6 +4,9 @@
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' href='../pictures/favicon.ico' type='image/x-icon'/>
     <link rel="stylesheet" href="../css/style1.css" type="text/css">
+    <style>
+        p   {text-align: left;}
+    </style>
     <title>
         testing
     </title>
@@ -12,11 +15,12 @@
         
         <script>
             var i = 0;
-            var text="";
+            var text="<ul>";
             for(i=0;i<10;i++)
             {
-                text = text + i;
+                text += "<li>" + i;
             }
+            text = text + "<ul>"
             document.getElementById("test").innerHTML=text;
         </script>
     </body>
