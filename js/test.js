@@ -1,6 +1,18 @@
+function listing(arr)
+{
+    var i,len,text;
+    text = "<ul>"
+    len = arr.text
+    for(i = 0;i<len;i++)
+    {
+        text += "<li>" + arr[i] + "</li>"
+    }
+    text += "<ul>"
+    return text
+}
 function test()
 {
-    var a = " never \r gonna \r give \r you \r up \n"
-    var b = " what the fcuk is \f form feed"
-    document.getElementById("test").innerHTML = a + " " + b
+    var arr = ["ur","momma","hella","gay"]
+    var text = listing(arr)
+    document.getElementById("test").innerHTML = text
 }
