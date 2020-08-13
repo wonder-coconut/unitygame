@@ -1,5 +1,5 @@
 body    {background-image: url("background.webp");
-        background-color: rgb(51, 52, 51);
+        background-color:       (51, 51, 51);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -109,10 +109,10 @@ h1              {font-weight: normal;}
                 letter-spacing: 2px;}
 
 .text          {font-weight: normal;
-                background-color: rgba(0, 0, 0, 0.7);
                 letter-spacing: 1px;
                 font-size: 21px;}
 
+div.text       {background-color: rgba(0, 0, 0, 0.7);}
 @media screen and (min-width: 601px)    {
         img.links       {width: 69px;
                         height: 69px;}
