@@ -1,19 +1,9 @@
-function listing(arr)
+var arr = [a,b,c,d];
+var len = arr.length;
+var i,text;
+text = "";
+for (i = 0; i < len; i++)
 {
-    arr = [a,b,c,d];
-    var i,len,text;
-    text = "<ul>";
-    len = arr.text;
-    for(i = 0;i<len;i++)
-    {
-        text += "<li>" + arr[i] + "</li>";
-    }
-    text += "<ul>";
-    document.getElementById("test").innerHTML = text;
+    text += arr[i] + " ";
 }
-function test()
-{
-    
-    var text = listing(arr);
-    
-}
+document.getElementById("test").innerHTML = text;
