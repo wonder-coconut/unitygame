@@ -1,6 +1,7 @@
-.video  {top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        border-style: solid;
-        border-color: white;
-        position: absolute;}
+.videoleft  {top: 171px;
+            left: 253px;
+            background-color: rgba(0.7, 0.7, 0.7, 0.7);
+            border-style: none;
+            border-color: white;
+            position: absolute;
+            padding: 0.5% 0.5% 0.5% 0.5%;}
