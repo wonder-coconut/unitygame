@@ -10,6 +10,14 @@
     <body>
         <p id="test"></p>
         
-        <script src="../js/test.js"></script>
+        <script>
+            var i = 0;
+            var text="";
+            for(i=0;i<10;i++)
+            {
+                text = text + i;
+            }
+            document.getElementById("test").innerHTML=text;
+        </script>
     </body>
 </html>
