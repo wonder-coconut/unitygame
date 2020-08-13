@@ -5,15 +5,38 @@
     <link rel='icon' href='../pictures/favicon.ico' type='image/x-icon'/>
     <link rel="stylesheet" href="../css/style1.css" type="text/css">
     <style>
-        p   {text-align: left;}
+        p,form  {text-align: left;}
+        form    {color: blanchedalmond;}
     </style>
     <title>
         testing
     </title>
     <body>
-        <button type="button" onclick="listing()">click</button>
-        <p id="test"></p>
-                
-        <script src="../js/test.js"></script>
+        <form>
+            <h1> what kind of grapefruit are you </h1>
+            <input type="radio" id="blue rare" name="blue rare">
+            <label for="blue rare">blue rare</label>
+
+            <br>
+            <input type="radio" id="rare" name="rare">
+            <label for="rare">rare</label>
+
+            <br>
+            <input type="radio" id="medium rare" name="medium rare">
+            <label for="medium rare">medium rare</label>
+
+            <br>
+            <input type="radio" id="medium" name="medium">
+            <label for="medium">medium</label>
+
+            <br>
+            <input type="radio" id="medium well" name="medium well">
+            <label for="medium well">medium well</label>
+
+            <br>
+            <input type="radio" id="well done" name="well done"> 
+            <label for="well done">well done</label>
+                    
+        </form>
     </body>
 </html>

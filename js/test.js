@@ -1,6 +1,6 @@
-function listing()
+function listing(arr)
 {
-    var arr = ["jai","hanuman","gyan","gun","sagar"];
+    arr.sort(function(a,b){return a-b})
     var len = arr.length;
     var i = 0;
     var text="<ul>";
